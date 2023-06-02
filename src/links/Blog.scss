@@ -1,0 +1,48 @@
+.select-box{
+    width: 400px;
+    h6{
+        text-align: center;
+        background-color: yellow;
+        margin: 0;   
+        padding: 10px;
+        // &::after{
+        //     content: "&#9660";
+        //     padding: 12px 8px;
+        //     position: absolute;
+        //     right: 10px;
+        //     top: 0;
+        //     z-index: 1;
+        //     text-align: center;
+        //     width: 10%;
+        //     height: 100%;
+        //     pointer-events: none;
+        // }    
+           
+    }
+    .select{
+        padding: 0;
+        li{
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            background: red;
+            padding: 1px 5px;
+            margin-bottom: 1px;
+            &:not(h6){
+                padding: 10px;
+                width: 100%;
+                display: none;
+                background: #000;
+                color: #fff;
+                position: relative;
+                &:hover{
+                    background-color: green;
+                }
+            }
+            p{
+                margin: 0;
+            }
+
+        }
+    }
+}

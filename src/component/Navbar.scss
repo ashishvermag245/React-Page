@@ -1,0 +1,27 @@
+.navbar{
+    background-color: #f3f3f3;
+    .navbar-nav{
+        gap: 30px;
+    }
+    .collapse{
+        .navbar-nav{
+            .nav-item{
+                .nav-link{
+                    border-bottom: 2px solid transparent;
+                    font-weight: 500;
+                    font-size: 18px;
+                    // border-top: 1px solid transparent;
+                    &:hover{
+                        border-bottom: 2px solid black;
+                        // border-top: 1px solid black;
+                    }
+                }
+            }
+        }
+    }
+    .button{
+        a{
+            padding: 5px 10px;
+        }
+    }
+}
